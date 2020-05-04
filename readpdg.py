@@ -30,7 +30,7 @@ print(pdgdata[:20],end="\n");
 
 #sort the pdg from smaller to bigger value
 pdgdata=[int(i) for i in pdgdata]
-sortedpdg=sorted(pdgdata);
+sortedpdg=sorted(pdgdatA);
 #sortedpdg=[sorted(int(i))for i in sortedpdg]
 #display first 20 sorted pdg data
 print("first 20 sorted pdg values\n")
